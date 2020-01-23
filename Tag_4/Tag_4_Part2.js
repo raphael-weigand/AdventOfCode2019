@@ -1,5 +1,5 @@
-const start = 123257;
-const end = 647015;
+const start = 124075;
+const end = 580769;
 
 function isMonotone(pwd) {
   return pwd.split('').every((digit, index) => index === 0 || digit >= pwd[index - 1]);
